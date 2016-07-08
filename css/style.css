@@ -19,7 +19,7 @@ body {
 	margin: 0 auto;
 }
 
-.headline1 {
+.headline1, .foot{
 	text-align: center;
 }
 
@@ -33,7 +33,7 @@ body {
 	justify-content: center;
 }
 
-.project-name {
+.project-name, .occupation {
 	font-size: 20px;
 	color: #fff;
 }
