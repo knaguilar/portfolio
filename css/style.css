@@ -1,9 +1,39 @@
 * {
+	/*outline: 1px solid red !important;*/
 	box-sizing: border-box;
+	font-family: "Dosis", arial, sans-serif;
+	color: #fff;
 }
 
+body {
+	background: -webkit-linear-gradient(left, rgba(40,178,133,0.9), rgba(74,70,200,0.7)); /* For Safari 5.1 to 6.0 */
+	width: 100%;
+}
 
 .logo {
-	max-width: 20%;
+	margin-top: 20px;
+	max-width: 100%;
 }
 
+.img-responsive {
+	margin: 0 auto;
+}
+
+.headline1 {
+	text-align: center;
+}
+
+.divider {
+	width: 50%;
+}
+
+.projects {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.project-name {
+	font-size: 20px;
+	color: #fff;
+}
