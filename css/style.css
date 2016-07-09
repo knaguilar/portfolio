@@ -38,9 +38,11 @@ body {
 	opacity: 0.2;
 	max-width: 75%;
 }
+
 a {
 	color: #fff;
 }
+
 .icons {
 	position: absolute;
     top: 40%;
@@ -79,15 +81,12 @@ a {
 	}
 
 	.icons {
-		font-size: 30px;
-		justify-content: center;
-	}
-}
-
-@media screen and (min-width: 460px) and (max-width: 669px){
-	.icons {
 		font-size: 40px;
 		justify-content: space-around;
+	}
+
+	.cover {
+		max-width: 90%;
 	}
 }
 
