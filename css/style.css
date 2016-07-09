@@ -1,3 +1,10 @@
+@import url(http://weloveiconfonts.com/api/?family=zocial);
+
+/* zocial */
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+}
+
 * {
 	/*outline: 1px solid red !important;*/
 	box-sizing: border-box;
@@ -14,6 +21,10 @@ body {
 	width: 100%;
 }
 
+.container-fluid {
+	width: 100%;
+}
+
 .logo {
 	margin-top: 20px;
 	max-width: 100%;
@@ -21,6 +32,25 @@ body {
 
 .img-responsive {
 	margin: 0 auto;
+}
+
+.cover {
+	opacity: 0.2;
+	max-width: 75%;
+}
+a {
+	color: #fff;
+}
+.icons {
+	position: absolute;
+    top: 40%;
+    left: 10%;
+    width: 80%;
+    text-align: center;
+    font-size: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 .headline1, .foot{
@@ -47,6 +77,18 @@ body {
 	.name, .occupation, .head-image {
 		text-align: center;
 	}
+
+	.icons {
+		font-size: 30px;
+		justify-content: center;
+	}
+}
+
+@media screen and (min-width: 460px) and (max-width: 669px){
+	.icons {
+		font-size: 40px;
+		justify-content: space-around;
+	}
 }
 
 /*Medium screens to transition to larger*/
@@ -56,5 +98,10 @@ body {
 	}
 	header {
 		display: flex;
+	}
+
+	.icons {
+		font-size: 50px;
+		justify-content: space-around;
 	}
 }
