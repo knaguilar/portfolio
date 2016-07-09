@@ -2,20 +2,21 @@
 <html lan="eng">
 <head>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Karla's Portfolio</title>
-	<link href="css/style.css" rel="stylesheet">
 	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
 </head>
 <body>
 	<div class="container-fluid">
 		<header class="row">
-			<div class="col-md-6">
+			<div class="col-sm-12 col-md-6 head-image">
 			<!-- Put in a placeholder for logo -->
 				<img class="logo" src="http://placekitten.com/75/75" alt="Personal logo">
 			</div>
-			<div class="col-md-6 text-right text-uppercase">
-				<h1 title-super text-thin>Karla N. Aguilar</h1>
+			<div class="col-sm-12 col-md-6 text-right text-uppercase">
+				<h1 class="name" title-super text-thin>Karla N. Aguilar</h1>
 				<p class="occupation">Front-End Web Developer</p>
 			</div>
 		</header>	
@@ -40,27 +41,34 @@
       	</div>
 
       	<div class="row text-center projects">
-	        <div class="col-md-4">
+	        <div class="col-md-3">
 	        	<img class="img-responsive" src="http://placekitten.com/300/150" alt="kittenholder">
 	        	<h4 class="text-uppercase">Classic Arcade Game Clone</h4>
 	          	<a class="project-name" href="#">Frogger</a>
 	        </div>
-	        <div class="col-md-4">
+	        <div class="col-md-3">
 		        <img class="img-responsive" src="http://placekitten.com/300/150" alt="kittenholder">
 		        <h4 class="text-uppercase">Website Optimization</h4>
 		        <a class="project-name" href="#">Flash Flowers</a>
 	        </div>
-	        <div class="col-md-4">
+	        <div class="col-md-3">
 	        	<img class="img-responsive" src="http://placekitten.com/300/150" alt="kittenholder">
 	          	<h4 class="text-uppercase">Neighborhood Map</h4>
 	          	<a class="project-name" href="#">Barcelona, Spain</a>
+	        </div>
+	        <div class="col-md-3">
+	        	<img class="img-responsive" src="http://placekitten.com/300/150" alt="kittenholder">
+	          	<h4 class="text-uppercase">Travel Blog</h4>
+	          	<a class="project-name" href="#">Europe 2014</a>
 	        </div>
       	</div>
 
       	<!-- included footer -->
       	<footer class="foot">
-	      	<hr>
-	      	<h5>Created by Karla Aguilar</h5>
+      		<div class="col-md-12">
+		      	<hr>
+		      	<h5>Created by Karla Aguilar</h5>
+	      	</div>
       	</footer>
 		
 	</div>

@@ -37,3 +37,20 @@ body {
 	font-size: 20px;
 	color: #fff;
 }
+
+/*center header info on smaller screens*/
+@media screen and (max-width: 659px) {
+	.name, .occupation, .head-image {
+		text-align: center;
+	}
+}
+
+/*Medium screens to transition to larger*/
+@media screen and (min-width: 660px) and (max-width: 991px) {
+	.col-sm-12 {
+		width: 50%;
+	}
+	header {
+		display: flex;
+	}
+}
