@@ -7,13 +7,15 @@
 	<link href="css/bootstrap.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+	<script type="text/javascript" src="js/test_run.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 </head>
 <body>
 	<div class="container-fluid">
 		<header class="row">
 			<div class="col-sm-12 col-md-6 head-image">
 			<!-- TODO: Put two logo sizes for different size viewports-->
-				<img class="logo" src="http://placekitten.com/75/75" alt="Personal logo">
+				<img class="logo" src="http://placekitten.com/90/90" alt="Personal logo">
 			</div>
 			<div class="col-sm-12 col-md-6 text-right text-uppercase">
 				<h1 class="name" title-super text-thin>Karla N. Aguilar</h1>
@@ -51,27 +53,26 @@
 	        	<hr class="divider">
 	        </div>
       	</div>
-		<!-- TODO: add modal to preview more info on projects -->
       	<div class="row text-center projects">
 	        <div class="col-md-3">
-	        	<img class="img-responsive" src="http://placekitten.com/300/150" alt="kittenholder">
+	        	<img class="img-responsive" src="http://placekitten.com/300/150" alt="kittenholder" data-toggle="modal" data-target="#proj1">
+	          	<h4 class="text-uppercase">Travel Blog</h4>
+	          	<a class="project-name" href="https://stumbleuponlyfe.wordpress.com/">Europe 2014</a>
+	        </div>
+	        <div class="col-md-3">
+	        	<img class="img-responsive" src="http://placekitten.com/300/150" alt="kittenholder" data-toggle="modal" data-target="#proj2">
 	        	<h4 class="text-uppercase">Classic Arcade Game Clone</h4>
 	          	<a class="project-name" href="#">Frogger</a>
 	        </div>
 	        <div class="col-md-3">
-		        <img class="img-responsive" src="http://placekitten.com/300/150" alt="kittenholder">
+		        <img class="img-responsive" src="http://placekitten.com/300/150" alt="kittenholder" data-toggle="modal" data-target="#proj3">
 		        <h4 class="text-uppercase">Website Optimization</h4>
 		        <a class="project-name" href="#">Flash Flowers</a>
 	        </div>
 	        <div class="col-md-3">
-	        	<img class="img-responsive" src="http://placekitten.com/300/150" alt="kittenholder">
+	        	<img class="img-responsive" src="http://placekitten.com/300/150" alt="kittenholder" data-toggle="modal" data-target="#proj4">
 	          	<h4 class="text-uppercase">Neighborhood Map</h4>
 	          	<a class="project-name" href="#">Barcelona, Spain</a>
-	        </div>
-	        <div class="col-md-3">
-	        	<img class="img-responsive" src="http://placekitten.com/300/150" alt="kittenholder">
-	          	<h4 class="text-uppercase">Travel Blog</h4>
-	          	<a class="project-name" href="#">Europe 2014</a>
 	        </div>
       	</div>
       	<footer class="foot">
@@ -81,5 +82,73 @@
 	      	</div>
       	</footer>
 	</div>
+	<!-- First Project -->
+	<div class="modal fade" id="proj1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Stumble Upon Lyfe</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="http://placekitten.com/555/300">
+                    <p class="description">Our travel blog built on Worpdpress and HTML. This blog consists of posts about our travels during our semester abroad in 2014.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Second Project -->
+    <div class="modal fade" id="proj2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Frogger</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="http://placekitten.com/555/300">
+                    <p class="description">This was my first interactive game. I learned a lot about HTML, CSS and Javascript.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Third Project -->
+    <div class="modal fade" id="proj3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Flash Flower</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="http://placekitten.com/555/300">
+                    <p class="description">In this project I optimized a  website with a number of optimization- and performance-related issues so that it achieves a target PageSpeed score and runs at 60 frames per second.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Fourth Project -->
+    <div class="modal fade" id="proj4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Neighborhood Map</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="http://placekitten.com/555/300">
+                    <p class="description">A single-page application featuring a map of Barcelona consisting of additional functionality to this application, including: map markers to identify popular locations or places you’d like to visit, a search function to easily discover these locations, and a listview to support simple browsing of all locations.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

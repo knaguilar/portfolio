@@ -69,6 +69,16 @@ a {
 	justify-content: center;
 }
 
+.modal-header, .description, .modal-footer {
+	color: #1D7F5F;
+}
+
+.description, .modal-footer {
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+}
+
 .project-name, .occupation {
 	font-size: 20px;
 	color: #fff;
